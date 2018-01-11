@@ -16,7 +16,8 @@ nav.nav-center ul li a {
 #contact a img{
   display:inline-block;
   width: 50px;
-  padding-left: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 #contact{
