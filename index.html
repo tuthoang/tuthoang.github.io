@@ -3,9 +3,11 @@
   <head>
     <title> Timmy Hoang </title>
      <link rel = "stylesheet" type = "text/css" href = "stylesheet.css" />
+
     <!-- Materalize CSS/JS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-   
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
   </head>
 
@@ -16,8 +18,7 @@
 <!--           <a href="#!" class="brand-logo">Logo</a> -->         
           <ul class="hide-on-med-and-down">
             <li><a href="sass.html">About</a></li>
-            <li><a href="badges.html">Projects</a></li>
-            <li><a href="aa">Experience</a></li>
+            <li><a href="badges.html">Projects/Experience</a></li>
             <li><a href="##">Contact</a></li>
             <li><a href="resume.pdf">Resume</a></li>
           </ul>
@@ -32,26 +33,71 @@
         </h2>
       </div>
       <div id="projects">
-        <h2> Projects </h2>
+        <h2 class="center-align"> Projects </h2>
         <div class="row">
           <div class="col s12 m6">
             <div class="card blue-grey darken-1">
               <div class="card-content white-text">
+                <span class="card-title">Perseus Mirror</span>
+                <p> Apart of a team that created a web application for a smart mirror project.
+                    The app was written in Python and Flask, and MySQL for the database. I created
+                    a RESTful API so that when a widget was dragged and dropped into an appropiate region,
+                    it reflected onto the smart mirror.</p>
+              </div>
+              <div class="card-action">
+                <a href="https://www.perseusmirrors.com/">Perseus Mirrors</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m6">
+            <div class="card blue-grey darken-1">
+              <div class="card-content white-text">
                 <span class="card-title">Senti-Tweet</span>
-                <p>Senti-Tweet is a web application that takes a person's twitter handle and 
+                <p>Senti-Tweet is a web application, written in Angular 5 and Nodejs, that takes a person's twitter handle and 
                   performs a sentiment analysis on their last 50 tweets. Twitter's REST API was used to
                 extract the tweets and Indico.io's REST API was used for the sentiment analysis.</p>
               </div>
               <div class="card-action">
-                <a href="#">This is a link</a>
-                <a href="#">This is a link</a>
+                <a href="https://github.com/tuthoang/Senti-Tweet">GitHub Repo Link</a>
               </div>
             </div>
           </div>
+
+          <div class="col s12 m6">
+            <div class="card blue-grey darken-1">
+              <div class="card-content white-text">
+                <span class="card-title">Rocketship Game</span>
+                <p>This app was written as part of a beginner's programming course at BU. We worked in 
+                  groups to make an app in any programming language. The program was written in C++
+                  and the focus was to use OOP and its properties to create game objects, game levels, and to detect collisions. </p>
+              </div>
+              <div class="card-action">
+                <a href="https://github.com/tuthoang/Rocketship-Game">GitHub Repo Link</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m6">
+            <div class="card blue-grey darken-1">
+              <div class="card-content white-text">
+                <span class="card-title">Pong</span>
+                <p>This game was programmed using Python3 and the pygame framework. I was bored and wanted to practice
+                  Python so I wrote a small Pong game. It allows two players to play eachother using W/S and up/down.</p>
+              </div>
+              <div class="card-action">
+                <a href="https://github.com/tuthoang/Pong">GitHub Repo Link</a>
+              </div>
+            </div>
+          </div>
+
         </div>
+
       </div>
 
       <div id="contact">
+      <a href="https://github.com/tuthoang"><img src="/img/github.png"/></a>
+      <i class="large material-icons">email</i>
 
       </div>
 
