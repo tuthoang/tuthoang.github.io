@@ -1,3 +1,6 @@
+body{
+  background-image: url("img/back.jpg");
+}
 nav.nav-center ul {
     text-align: center;
 }
@@ -7,4 +10,10 @@ nav.nav-center ul li {
 }
 nav.nav-center ul li a {
     display: inline-block;
+}
+
+#contact a img{
+  display:inline-block;
+  width: 50px;
+  padding-left: 15px;
 }
