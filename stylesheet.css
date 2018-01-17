@@ -24,7 +24,12 @@ nav.nav-center ul li a {
   margin-left: 40%;
   margin-right: 40%;
 }
-
+img{
+  transition: transform .25s ease .1s;
+}
+img:hover{
+  transform: scale(1.5,1.5);
+}
 /*.card.hoverable{
   overflow: hidden;
   position: relative;
