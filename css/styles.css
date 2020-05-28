@@ -112,6 +112,13 @@ body {
               0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+
+.wrapper {
+  width: 100%;
+  display:inline-block;
+  text-align: center;
+}
+
 #contact a img {
   display: inline-block;
   width: 50px;
@@ -120,19 +127,18 @@ body {
 }
 
 #contact {
-  display: block;
-  margin-top: 25px;
-  margin-left: 40%;
-  margin-right: 40%;
-  background: transparent;
+  display: inline-block;
+  vertical-align:middle;
+  text-align:center;
+  margin-top: 25px; 
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
               0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#contact img {
-  padding: 10px;
-  /* transform: scale(.75, .75); */
-
+#contact a {
+  padding: 15 10px 10px 10px;
+  /* width:50%; 
+  margin: 0 auto; */
 }
 
 a {
@@ -148,10 +154,30 @@ img:hover {
 }
 
 .gif {
-  vertical-align: center;
+  /* vertical-align: center; */
   text-align: center;
 }
 
 iframe {
   pointer-events: none;
+}
+
+@media(max-width:800px) {
+  iframe {
+    width: 100%;
+    float: none;
+  }
+
+  .col {
+    width: 100%;
+  }
+
+  .ml {
+    margin-left: 0;
+  }
+
+  .mr {
+    margin-right: 0;
+  }
+
 }
