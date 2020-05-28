@@ -1,113 +1,113 @@
-<!DOCTYPE HTML>
-<html>
-  <head>
-    <title> Timmy Hoang </title>
-     <link rel = "stylesheet" type = "text/css" href = "stylesheet.css" />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Timmy Hoang Portfolio</title>
+ <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="css/styles.css">
+  
+</head>
+<body>
+  
+  <nav class="navbar">
+    <a class="navbar-item" href="#about"> About</a>
+    <a class="navbar-item" href="#projects"> Projects/Experience </a>
+    <a class="navbar-item" href="#contact"> Contact </a>
+    <a class="navbar-item" href="resume.pdf"> Resume </a>
 
-    <!-- Materalize CSS/JS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <script src="script.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-  </head>
+  </nav>
+  
 
-  <body>
-    <div class="navbar-fixed">
-      <nav class="nav-center">
-        <div class="nav-wrapper center-align blue-grey darken-1">
-<!--           <a href="#!" class="brand-logo">Logo</a> -->         
-          <ul class="hide-on-small-only">
-            <li><a id="aboutlink" href="#about" >About</a></li>
-            <li><a id="projlink" href="#projects" >Projects/Experience</a></li>
-            <li><a id="contactlink" href="#contact" >Contact</a></li>
-            <li><a href="resume.pdf">Resume</a></li>
-          </ul>
-        </div>
-      </nav>
-    </div>
-        
-    <div class="container">
-      <div id = "about" class="card-panel hoverable blue-grey darken-1">
-        <p class="flow-text bold white-text "> Hi, my name is Timmy Hoang. 
-            I am a M.S computer engineering major at Boston University and
-            I aspire to become a software engineer that can apply Machine Learning principles in practice.
-        </p>
+  <div class="container">
+    <div id="about" class="section scrollspy">
+      <div class="">
+        <!-- <div>About</div> -->
+        Hi, my name is Timmy Hoang.
+        I am a M.S computer engineering major at Boston University and
+        I aspire to become a software engineer that can apply Machine Learning principles in practice.
       </div>
-      <div id="projects" class="section scrollspy">
-        <div class="row">
-          <div class="col s12 m6">
-            <div class="card hoverable blue-grey darken-1">
-              <div class="card-content white-text">
-                <span class="card-title">Calorie Predictor</span>
-                <p> A part of a team that created an Android application that used Machine Learning to predict the calories of a type of food (burgers).
-                    We web scraped images for fast food burgers and labeled the calories according to the restaurant's nutrional facts on their website.
-                    We passed the images into a pre-trained MobileNet CNN for feature extraction.
-                    We then applied Principle Component Analysis and Linear regression on the extracted features. The necessary
-                    weights were saved onto the Android application and applied the necessary transformations onto input images from the user.
-                </p>
-              </div>
-              <div class="card-action">
-                <a href="https://github.com/tuthoang/CaloriePredictor/">GITHUB REPO LINK</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col s12 m6">
-            <div class="card hoverable blue-grey darken-1 hoverable">
-              <div class="card-content white-text">
-                <span class="card-title">Senti-Tweet</span>
-                <p>Senti-Tweet is a web application, written in Angular 5 and Nodejs, that takes a person's twitter handle and 
-                  performs a sentiment analysis on their last 50 tweets. Twitter's REST API was used to
-                extract the tweets and Indico.io's REST API was used for the sentiment analysis.</p>
-              </div>
-              <div class="card-action">
-                <a href="https://github.com/tuthoang/Senti-Tweet">GitHub Repo Link</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col s12 m6">
-            <div class="card hoverable blue-grey darken-1">
-              <div class="card-content white-text">
-                <span class="card-title">Rocketship Game</span>
-                <p>This app was written as part of a beginner's programming course at BU. We worked in 
-                  groups to make an app in any programming language. The program was written in C++
-                  and the focus was to use OOP and its properties to create game objects, game levels, and to detect collisions. </p>
-              </div>
-              <div class="card-action">
-                <a href="https://github.com/tuthoang/Rocketship-Game">GitHub Repo Link</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col s12 m6">
-            <div class="card hoverable blue-grey darken-1">
-              <div class="card-content white-text">
-                <span class="card-title">Pong</span>
-                <p>This game was programmed using Python3 and the pygame framework. I was bored and wanted to practice
-                  Python so I wrote a small Pong game. It allows two players to play eachother using W/S and up/down.</p>
-              </div>
-              <div class="card-action">
-                <a href="https://github.com/tuthoang/Pong">GitHub Repo Link</a>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-
-      <div id="contact" class="center-align card-panel transparent section scrollspy">
-        <a href="https://github.com/tuthoang" class="hoverable"><img src="img/github.png"/></a>
-        <a href="mailto:hoangt@bu.edu" class="hoverable"><img src="img/mail_2x.png"/></a>
-      </div>
-
-
     </div>
 
+    <div id="projects" class="section scrollspy">
+      <div class="row">
 
+        <div class="col">
+          <div class="card mr">
+            <div class="card-header">
+              Sorting Visualizer
+            </div>
+            <div class="card-body gif">
+              <p>
+                <iframe src="https://giphy.com/embed/Y41xcoHNHXQRyECUnO" frameBorder="0" class="giphy-embed"
+                  allowFullScreen></iframe>
+                <!-- <p><a href="https://giphy.com/gifs/Y41xcoHNHXQRyECUnO">via GIPHY</a></p> -->
+              </p>
+            </div>
+            <div class="github">
+              <a href="https://github.com/tuthoang/Sorting-Visualizer">GITHUB REPO LINK</a>
+            </div>
+          </div>
+        </div>
+        </div><div class="col">
+          <div class="card ml">
+            <div class="card-header">
+              Senti-Tweet
+            </div>
+            <div class="card-body">
+              <p>Senti-Tweet is a web application, written in Angular 5 and Nodejs, that takes a person's twitter handle and
+                performs a sentiment analysis on their last 50 tweets. Twitter's REST API was used to
+                extract the tweets and Indico.io's REST API was used for the sentiment analysis.
+              </p>
+            </div>
+            <div class="github">
+              <a href="https://github.com/tuthoang/Senti-Tweet">GITHUB REPO LINK</a>
+            </div>
+          </div>
+        </div>
+      </div>
 
-  </body>
+      <div class="row">
+        <div class="col">
+          <div class="card mr">
+            <div class="card-header">
+              Molecule Database
+            </div>
+            <div class="card-body">
+              <p>
+                Created a java application that could replicate a molecular database. 
+                Operations include inserting new molecules, and finding isomorphic molecules.
+                Command line interface is also supported.
+              </p>
+            </div>
+            <div class="github">
+              <a href="https://github.com/tuthoang/Molecule-Database">GITHUB REPO LINK</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card ml">
+            <div class="card-header">Calorie Predictor</div>
+            <div class="card-body">
+              <p> A part of a team that created an Android application that used Machine Learning to predict the
+                calories of a type of food (burgers).
+              </p>
+            </div>
+            <div class="github">
+              <a href="https://github.com/tuthoang/CaloriePredictor/">GITHUB REPO LINK</a>
+            </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div id="contact" class="section scrollspy">
+      <a href="https://github.com/tuthoang" class="links"><img src="img/github.png" width="45px" height="45px" /></a>
+      <a href="mailto:hoangt@bu.edu" class="links"><img src="img/mail_2x.png" width="45px" height="45px" /></a>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
 </html>

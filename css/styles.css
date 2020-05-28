@@ -1,0 +1,157 @@
+body {
+  background-image: url("../img/back1.jpg");
+  background-color: #666666;
+  font-family: 'Open Sans', sans-serif;
+  background-size: cover;
+  padding:0;
+  margin:0;
+}
+
+
+.navbar {
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+  width: 100%;
+  background-color: #194646;
+  color: white;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navbar a {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.navbar .navbar-item {
+  padding-right: 20px;
+}
+
+.container {
+  width:80%;
+  margin: 6em auto auto auto;
+  /* margin-top: 200px; */
+  overflow:hidden;
+}
+
+.clr {
+  clear: both;
+}
+
+.row {
+  display: block;
+}
+
+.row:after {
+  clear: both;
+}
+
+.col {
+  float: left;
+  color: white;
+  width: 50%;
+  /* box-sizing: border-box; */
+  padding: 2em 0 0 0;
+}
+
+.ml {
+  margin-left: 1em;
+}
+
+.mr {
+  margin-right: 1em;
+}
+
+.card {
+  background-color: #194646;
+  border-radius: 3px;
+  /* padding: 0 1em 0 1em; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+              0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.card-header {
+  text-align: left;
+  margin-bottom: 0.7em;
+  font-size: 20px;
+  padding: 1.25em 1.25em 0 1.25em;
+}
+
+.card-body {
+  border-bottom: 1px solid #e5e5e5;
+  padding: 0 1.25em;
+  /* height:150px; */
+}
+
+.github {
+  padding: 1em 1.25em;
+}
+
+.github a {
+  color: #ff9700;
+  text-transform: capitalize;
+}
+.github a:hover {
+  color: #ffd8a6;
+}
+
+#about {
+  background-color: #194646;
+  color: #fcfcfc;
+  /* margin: 1em 5em; */
+  padding: 1.5em;
+  border-radius: 3px;
+  text-align: center;
+  font-size: 22px;
+  box-shadow: 0 -4px 8px 0 rgba(0, 0, 0, 0.2),
+              0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#contact a img {
+  display: inline-block;
+  width: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#contact {
+  display: block;
+  margin-top: 25px;
+  margin-left: 40%;
+  margin-right: 40%;
+  background: transparent;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+              0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#contact img {
+  padding: 10px;
+  /* transform: scale(.75, .75); */
+
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  transition: transform .25s ease .1s;
+}
+
+img:hover {
+  transform: scale(1.5, 1.5);
+}
+
+.gif {
+  vertical-align: center;
+  text-align: center;
+}
+
+iframe {
+  pointer-events: none;
+}
